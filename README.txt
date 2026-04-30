@@ -1,4 +1,13 @@
-// Макрос для игрока
+Манифест для установки:
+
+https://github.com/Psheni4a/Swap-Target-Token/releases/latest/download/module.json
+
+Для использования нужно выбрать свой токен, а токен с которым нужно поменяться местами в цель. Затем запустить макрос ниже.
+Для работы макроса нужено:
+- активный модуль "socketlib";
+- Gamemaster должен быть на сервере;
+
+Макрос для игрока:
 
 const controlled = canvas.tokens.controlled;
 const targets = Array.from(game.user.targets);
